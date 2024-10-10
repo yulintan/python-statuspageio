@@ -40,9 +40,9 @@ class BaseError(Exception):
         :param dict errors_payload: Json decoded payload from the errors response.
         """
         self.http_status = http_status
-        print self.http_status
-        print errors_payload
-        
+        print(self.http_status)
+        print(errors_payload)
+
         self.errors = errors_payload
         #self.errors = [munchify(error_envelope['error'])
         #              for error_envelope in errors_payload['errors']]

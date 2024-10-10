@@ -17,7 +17,7 @@ setup(
     license='MIT',
     packages=['statuspageio'],
     install_requires=['requests', 'munch'],
-    use_2to3=True,
+    use_2to3=False,
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Developers",
